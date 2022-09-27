@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="117dp"
+        android:layout_toRightOf="@+id/mota"
+        android:text="+"
+        app:backgroundTint="#BDB7B7" />
+
+    <ImageView
+        android:id="@+id/imageHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"></ImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageHinh"
+        android:text="NAME"
+        android:paddingTop="20dp"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="83dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/imageHinh"
+        android:text="MO TA"
+        android:id="@+id/mota"
+        android:textColor="#808080"
+        android:textSize="14sp"></TextView>
+
+    <TextView
+        android:id="@+id/gia"
+        android:layout_width="83dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/mota"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/imageHinh"
+        android:text="GIA"
+        android:textColor="#0000FF"
+        android:textSize="14sp"></TextView>
+
+    <Button
+        android:id="@+id/buttoncong"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="116dp"
+        android:layout_toRightOf="@+id/mota"
+        android:text="+"
+        app:backgroundTint="#BDB7B7" />
+
+    <Button
+        android:id="@+id/buttontru"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_toRightOf="@+id/mota"
+        android:text="-"
+        app:backgroundTint="#BDB7B7" />
+
+</RelativeLayout>
